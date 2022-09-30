@@ -44,7 +44,7 @@ def algoritmoDeLuhn (n):
     while n > 0:
         numero = n % 10
         n = floor(n / 10)
-        #a partir do penúltimo número pegue os números de 2 em 2 multiple po 2 e some os algarismos
+        #a partir do penúltimo número pegue os números de 2 em 2 multiple por 2 e some os algarismos
         if ni % 2 == 0:
             nMult = numero * 2
             #se o resultado da multiplicação for maior que 10 separe os algarismos e some eles
